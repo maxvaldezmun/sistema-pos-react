@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+*.pem
+*.key
+
+# SQL scripts (contain operational emails / DB migration scripts)
+*.sql
+
+# Agents, IDEs & OS
+.gemini/
+.vscode/
+.cursor/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
